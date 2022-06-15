@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bangla Shop</title>
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-6"><h1>Header</h1></div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <div class="category-area">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-xl-6">
+                <div class="category-text">
+                  <h2>Search by Category</h2>
+                </div>
+              </div>
+              <div class="col-xl-6 text-end">
+                <div class="slider-btn">
+                  <button class="btn-left" onclick="slideMove('left')">
+                    <i class="fa-solid fa-chevron-left"></i>
+                  </button>
+                  <button class="btn-right" onclick="slideMove('right')">
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="row my-4">
+              <div class="col">
+                <div class="slider-line">
+                  <div class="slide-line" id="i1"></div>
+                </div>
+              </div>
+            </div>
+            <div class="category-container">
+              <div class="category-main" id="slider-main">
+                <div class="category-wrap">
+                  <div class="category-items">
+                    <div class="category-img">
+                      <img
+                        src="assets/img/category/grace.png"
+                        alt="category-img"
+                      />
+                    </div>
+                    <div class="category-name">
+                      <p>Graceries</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="category-wrap">
+                  <div class="category-items">
+                    <div class="category-img">
+                      <img
+                        src="assets/img/category/fish.png"
+                        alt="category-img"
+                      />
+                    </div>
+                    <div class="category-name">
+                      <p>Fish</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="category-wrap">
+                  <div class="category-items">
+                    <div class="category-img">
+                      <img
+                        src="assets/img/category/meat.png"
+                        alt="category-img"
+                      />
+                    </div>
+                    <div class="category-name">
+                      <p>Meat</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="category-wrap">
+                  <div class="category-items">
+                    <div class="category-img">
+                      <img
+                        src="assets/img/category/vegetables.png"
+                        alt="category-img"
+                      />
+                    </div>
+                    <div class="category-name">
+                      <p>Vegetables</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="category-wrap">
+                  <div class="category-items">
+                    <div class="category-img">
+                      <img
+                        src="assets/img/category/fruits.png"
+                        alt="category-img"
+                      />
+                    </div>
+                    <div class="category-name">
+                      <p>Fruits</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="category-wrap">
+                  <div class="category-items">
+                    <div class="category-img">
+                      <img
+                        src="assets/img/category/ice-cream.png"
+                        alt="category-img"
+                      />
+                    </div>
+                    <div class="category-name">
+                      <p>Ice Cream</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="category-wrap">
+                  <div class="category-items">
+                    <div class="category-img">
+                      <img
+                        src="assets/img/category/grace.png"
+                        alt="category-img"
+                      />
+                    </div>
+                    <div class="category-name">
+                      <p>Graceries</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="category-wrap">
+                  <div class="category-items">
+                    <div class="category-img">
+                      <img
+                        src="assets/img/category/fish.png"
+                        alt="category-img"
+                      />
+                    </div>
+                    <div class="category-name">
+                      <p>Fish</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="category-wrap">
+                  <div class="category-items">
+                    <div class="category-img">
+                      <img
+                        src="assets/img/category/meat.png"
+                        alt="category-img"
+                      />
+                    </div>
+                    <div class="category-name">
+                      <p>Meat</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="category-wrap">
+                  <div class="category-items">
+                    <div class="category-img">
+                      <img
+                        src="assets/img/category/vegetables.png"
+                        alt="category-img"
+                      />
+                    </div>
+                    <div class="category-name">
+                      <p>Vegetables</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="category-wrap">
+                  <div class="category-items">
+                    <div class="category-img">
+                      <img
+                        src="assets/img/category/fruits.png"
+                        alt="category-img"
+                      />
+                    </div>
+                    <div class="category-name">
+                      <p>Fruits</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="category-wrap">
+                  <div class="category-items">
+                    <div class="category-img">
+                      <img
+                        src="assets/img/category/ice-cream.png"
+                        alt="category-img"
+                      />
+                    </div>
+                    <div class="category-name">
+                      <p>Ice Cream</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="product-area">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-xl-6">
+                <div class="category-text">
+                  <h2>Deals of the Week</h2>
+                </div>
+              </div>
+              <div class="col-xl-6 text-end">
+                <div class="slider-btn">
+                  <button class="left-btn" onclick="productMove('left')">
+                    <i class="fa-solid fa-chevron-left"></i>
+                  </button>
+                  <button class="right-btn" onclick="productMove('right')">
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="row my-4">
+              <div class="col">
+                <div class="slider-line">
+                  <div class="slide-line" id="i2"></div>
+                </div>
+              </div>
+            </div>
+            <div class="product-container">
+              <div class="product-main" id="product-main">
+                <div class="product-wrap">
+                  <div class="product-items">
+                    <div class="product-img">
+                      <img
+                        src="assets/img/product-name/image-1.png"
+                        alt="product-img"
+                      />
+                      <div class="product-btn">
+                        <label class="switch">
+                          <input type="checkbox" />
+                          <span class="slider round"></span>
+                        </label>
+                      </div>
+                      <div class="select-btn">
+                        <button class="btn-select decrement">
+                          <i class="fa-solid fa-minus"></i>
+                        </button>
+                        <div class="btn-select Value">
+                          <input type="text" id="1" value="1" />
+                        </div>
+                        <button class="btn-select increment">
+                          <i class="fa-solid fa-plus"></i>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="product-content">
+                      <div class="rating">
+                        <img
+                          src="assets/img/others/rating-5star.png"
+                          alt="rating"
+                        />
+                        <span>(121)</span>
+                      </div>
+                      <div class="product-name"><h5>Product Name</h5></div>
+                      <div class="product-price">
+                        <span>$200.00</span>
+                        <del>$300.00</del>
+                      </div>
+                      <button class="add-cart-btn">Add to Cart</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="product-wrap">
+                  <div class="product-items">
+                    <div class="product-img">
+                      <img
+                        src="assets/img/product-name/image-2.png"
+                        alt="product-img"
+                      />
+                      <div class="product-btn">
+                        <label class="switch">
+                          <input type="checkbox" />
+                          <span class="slider round"></span>
+                        </label>
+                      </div>
+                      <div class="select-btn">
+                        <button class="btn-select decrement">
+                          <i class="fa-solid fa-minus"></i>
+                        </button>
+                        <div class="btn-select Value">
+                          <input type="text" id="2" value="1" />
+                        </div>
+                        <button class="btn-select increment">
+                          <i class="fa-solid fa-plus"></i>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="product-content">
+                      <div class="rating">
+                        <img
+                          src="assets/img/others/rating-5star.png"
+                          alt="rating"
+                        />
+                        <span>(121)</span>
+                      </div>
+                      <div class="product-name"><h5>Product Name</h5></div>
+                      <div class="product-price">
+                        <span>$200.00</span> <del>$300.00</del>
+                      </div>
+                      <button class="add-cart-btn">Add to Cart</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="product-wrap">
+                  <div class="product-items">
+                    <div class="product-img">
+                      <img
+                        src="assets/img/product-name/image-3.png"
+                        alt="product-img"
+                      />
+                      <div class="product-btn">
+                        <label class="switch">
+                          <input type="checkbox" />
+                          <span class="slider round"></span>
+                        </label>
+                      </div>
+                      <div class="select-btn">
+                        <button class="btn-select decrement">
+                          <i class="fa-solid fa-minus"></i>
+                        </button>
+                        <div class="btn-select Value">
+                          <input type="text" id="3" value="1" />
+                        </div>
+                        <button class="btn-select increment">
+                          <i class="fa-solid fa-plus"></i>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="product-content">
+                      <div class="rating">
+                        <img
+                          src="assets/img/others/rating-5star.png"
+                          alt="rating"
+                        />
+                        <span>(121)</span>
+                      </div>
+                      <div class="product-name"><h5>Product Name</h5></div>
+                      <div class="product-price">
+                        <span>$200.00</span> <del>$300.00</del>
+                      </div>
+                      <button class="add-cart-btn">Add to Cart</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="product-wrap">
+                  <div class="product-items">
+                    <div class="product-img">
+                      <img
+                        src="assets/img/product-name/image-4.png"
+                        alt="product-img"
+                      />
+                      <div class="product-btn">
+                        <label class="switch">
+                          <input type="checkbox" />
+                          <span class="slider round"></span>
+                        </label>
+                      </div>
+                      <div class="select-btn">
+                        <button class="btn-select decrement">
+                          <i class="fa-solid fa-minus"></i>
+                        </button>
+                        <div class="btn-select Value">
+                          <input type="text" id="4" value="1" />
+                        </div>
+                        <button class="btn-select increment">
+                          <i class="fa-solid fa-plus"></i>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="product-content">
+                      <div class="rating">
+                        <img
+                          src="assets/img/others/rating-5star.png"
+                          alt="rating"
+                        />
+                        <span>(121)</span>
+                      </div>
+                      <div class="product-name"><h5>Product Name</h5></div>
+                      <div class="product-price">
+                        <span>$200.00</span> <del>$300.00</del>
+                      </div>
+                      <button class="add-cart-btn">Add to Cart</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="product-wrap">
+                  <div class="product-items">
+                    <div class="product-img">
+                      <img
+                        src="assets/img/product-name/image-5.png"
+                        alt="product-img"
+                      />
+                      <div class="product-btn">
+                        <label class="switch">
+                          <input type="checkbox" />
+                          <span class="slider round"></span>
+                        </label>
+                      </div>
+                      <div class="select-btn">
+                        <button class="btn-select decrement">
+                          <i class="fa-solid fa-minus"></i>
+                        </button>
+                        <div class="btn-select Value">
+                          <input type="text" id="5" value="1" />
+                        </div>
+                        <button class="btn-select increment">
+                          <i class="fa-solid fa-plus"></i>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="product-content">
+                      <div class="rating">
+                        <img
+                          src="assets/img/others/rating-5star.png"
+                          alt="rating"
+                        />
+                        <span>(121)</span>
+                      </div>
+                      <div class="product-name"><h5>Product Name</h5></div>
+                      <div class="product-price">
+                        <span>$200.00</span> <del>$300.00</del>
+                      </div>
+                      <button class="add-cart-btn">Add to Cart</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="product-wrap">
+                  <div class="product-items">
+                    <div class="product-img">
+                      <img
+                        src="assets/img/product-name/image-1.png"
+                        alt="product-img"
+                      />
+                      <div class="product-btn">
+                        <label class="switch">
+                          <input type="checkbox" />
+                          <span class="slider round"></span>
+                        </label>
+                      </div>
+                      <div class="select-btn">
+                        <button class="btn-select decrement">
+                          <i class="fa-solid fa-minus"></i>
+                        </button>
+                        <div class="btn-select Value">
+                          <input type="text" id="6" value="1" />
+                        </div>
+                        <button class="btn-select increment">
+                          <i class="fa-solid fa-plus"></i>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="product-content">
+                      <div class="rating">
+                        <img
+                          src="assets/img/others/rating-5star.png"
+                          alt="rating"
+                        />
+                        <span>(121)</span>
+                      </div>
+                      <div class="product-name"><h5>Product Name</h5></div>
+                      <div class="product-price">
+                        <span>$200.00</span> <del>$300.00</del>
+                      </div>
+                      <button class="add-cart-btn">Add to Cart</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="product-wrap">
+                  <div class="product-items">
+                    <div class="product-img">
+                      <img
+                        src="assets/img/product-name/image-2.png"
+                        alt="product-img"
+                      />
+                      <div class="product-btn">
+                        <label class="switch">
+                          <input type="checkbox" />
+                          <span class="slider round"></span>
+                        </label>
+                      </div>
+                      <div class="select-btn">
+                        <button class="btn-select decrement">
+                          <i class="fa-solid fa-minus"></i>
+                        </button>
+                        <div class="btn-select Value">
+                          <input type="text" id="7" value="1" />
+                        </div>
+                        <button class="btn-select increment">
+                          <i class="fa-solid fa-plus"></i>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="product-content">
+                      <div class="rating">
+                        <img
+                          src="assets/img/others/rating-5star.png"
+                          alt="rating"
+                        />
+                        <span>(121)</span>
+                      </div>
+                      <div class="product-name"><h5>Product Name</h5></div>
+                      <div class="product-price">
+                        <span>$200.00</span> <del>$300.00</del>
+                      </div>
+                      <button class="add-cart-btn">Add to Cart</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="product-wrap">
+                  <div class="product-items">
+                    <div class="product-img">
+                      <img
+                        src="assets/img/product-name/image-3.png"
+                        alt="product-img"
+                      />
+                      <div class="product-btn">
+                        <label class="switch">
+                          <input type="checkbox" />
+                          <span class="slider round"></span>
+                        </label>
+                      </div>
+                      <div class="select-btn">
+                        <button class="btn-select decrement">
+                          <i class="fa-solid fa-minus"></i>
+                        </button>
+                        <div class="btn-select Value">
+                          <input type="text" id="8" value="1" />
+                        </div>
+                        <button class="btn-select increment">
+                          <i class="fa-solid fa-plus"></i>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="product-content">
+                      <div class="rating">
+                        <img
+                          src="assets/img/others/rating-5star.png"
+                          alt="rating"
+                        />
+                        <span>(121)</span>
+                      </div>
+                      <div class="product-name"><h5>Product Name</h5></div>
+                      <div class="product-price">
+                        <span>$200.00</span> <del>$300.00</del>
+                      </div>
+                      <button class="add-cart-btn">Add to Cart</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="product-wrap">
+                  <div class="product-items">
+                    <div class="product-img">
+                      <img
+                        src="assets/img/product-name/image-4.png"
+                        alt="product-img"
+                      />
+                      <div class="product-btn">
+                        <label class="switch">
+                          <input type="checkbox" />
+                          <span class="slider round"></span>
+                        </label>
+                      </div>
+                      <div class="select-btn">
+                        <button class="btn-select decrement">
+                          <i class="fa-solid fa-minus"></i>
+                        </button>
+                        <div class="btn-select Value">
+                          <input type="text" id="9" value="1" />
+                        </div>
+                        <button class="btn-select increment">
+                          <i class="fa-solid fa-plus"></i>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="product-content">
+                      <div class="rating">
+                        <img
+                          src="assets/img/others/rating-5star.png"
+                          alt="rating"
+                        />
+                        <span>(121)</span>
+                      </div>
+                      <div class="product-name"><h5>Product Name</h5></div>
+                      <div class="product-price">
+                        <span>$200.00</span> <del>$300.00</del>
+                      </div>
+                      <button class="add-cart-btn">Add to Cart</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="product-wrap">
+                  <div class="product-items">
+                    <div class="product-img">
+                      <img
+                        src="assets/img/product-name/image-5.png"
+                        alt="product-img"
+                      />
+                      <div class="product-btn">
+                        <label class="switch">
+                          <input type="checkbox" />
+                          <span class="slider round"></span>
+                        </label>
+                      </div>
+                      <div class="select-btn">
+                        <button class="btn-select decrement">
+                          <i class="fa-solid fa-minus"></i>
+                        </button>
+                        <div class="btn-select Value">
+                          <input type="text" id="0" value="1" />
+                        </div>
+                        <button class="btn-select increment">
+                          <i class="fa-solid fa-plus"></i>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="product-content">
+                      <div class="rating">
+                        <img
+                          src="assets/img/others/rating-5star.png"
+                          alt="rating"
+                        />
+                        <span>(121)</span>
+                      </div>
+                      <div class="product-name"><h5>Product Name</h5></div>
+                      <div class="product-price">
+                        <span>$200.00</span> <del>$300.00</del>
+                      </div>
+                      <button class="add-cart-btn">Add to Cart</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-area"></div>
+    </footer>
+
+    <!-- Js link  -->
+
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
